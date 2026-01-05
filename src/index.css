@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+/*Header styling*/
+.header-container {
+  background-color: #f5595a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.header-img-detail {
+  width: 24px;
+  margin-right: 5px;
+}
+.header-title {
+  font-weight: 500;
+  font-size: 14.46px;
+  font-style: medium;
+  color: white;
+  letter-spacing: 0.075rem;
+}
+/*Entry styling*/
+.country-details {
+  display: flex;
+  flex-direction: row;
+}
+.image-container {
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  margin-right: 5px;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.country-desc-container {
+  display: flex;
+  flex-direction: column;
+}
+.small-country-desc {
+  display: flex;
+}
+.country-about {
+  display: flex;
+  flex-direction: column;
+}
