@@ -2,17 +2,19 @@ import Japan from "/src/assets/japan.png";
 export default function Entry() {
   return (
     <main>
-      <div className="country-details">
+      <div className="entry-item">
         <div className="image-container">
-          <img className="image" src={Japan} alt="Japan" />
+          <img src={Japan} alt="Japan" />
         </div>
-        <div className="country-desc-container">
-          <div className="small-country-desc">
-            <p>Japan</p>
-            <p>View Google Maps Link</p>
+        <div className="location-container">
+          <div className="location">
+            <p>JAPAN</p>
+            <a href="https://maps.app.goo.gl/6RLYZDuuuqJ7kNGZ9">
+              View on Google Maps
+            </a>
           </div>
-          <div className="country-about">
-            <h1>Mount Fuji</h1>
+          <div className="location-details">
+            <h2>Mount Fuji</h2>
             <h3>12 Jan, 2023 - 24 Jan, 2023</h3>
             <p>
               Mount Fuji is the tallest mountain in Japan, standing at 3,776

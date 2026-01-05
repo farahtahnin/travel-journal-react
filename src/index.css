@@ -25,30 +25,37 @@ body {
   letter-spacing: 0.075rem;
 }
 /*Entry styling*/
-.country-details {
+.entry-item {
   display: flex;
+  justify-content: center;
   flex-direction: row;
 }
 .image-container {
-  width: 125px;
-  height: 168px;
+  width: 225px;
+  height: 268px;
   overflow: hidden;
-  margin-right: 5px;
+  margin: 20px;
+  border-radius: 5px;
 }
-.image {
+.image-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 5px;
 }
-.country-desc-container {
+.location-container {
   display: flex;
+  justify-content: center;
   flex-direction: column;
+  flex-wrap: wrap;
 }
-.small-country-desc {
+.location {
+  margin: 0;
   display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
 }
-.country-about {
-  display: flex;
-  flex-direction: column;
+.location-details {
+  display: block;
 }
