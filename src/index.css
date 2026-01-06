@@ -27,8 +27,9 @@ body {
 /*Entry styling*/
 .entry-item {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-direction: row;
+  margin-right: 20px;
 }
 .image-container {
   width: 14.063rem;
@@ -97,5 +98,12 @@ body {
   font-weight: 400;
   font-size: 15px;
   color: #2b283a;
-  margin-right: 20px;
+  line-height: 1.5em; /* Controls height of each line */
+
+  /* Truncation properties */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
 }
